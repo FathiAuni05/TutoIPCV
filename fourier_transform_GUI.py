@@ -1,3 +1,8 @@
+pip install streamlit opencv-python numpy pillow streamlit-drawable-canvas
+sudo apt-get update
+sudo apt-get install -y libgl1-mesa-glx
+streamlit run fourier_transform_GUI.py
+
 from typing import final
 import streamlit as st
 import cv2
