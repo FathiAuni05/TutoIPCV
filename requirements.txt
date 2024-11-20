@@ -7,3 +7,5 @@ opencv-contrib-python
 opencv-contrib-python-headless
 matplotlib
 seaborn
+
+pip install -r requirements.txt
