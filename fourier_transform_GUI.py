@@ -7,8 +7,6 @@ import numpy as np
 from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 
-
-
 # Specify canvas parameters in application
 stroke_width = st.sidebar.slider("Stroke width: ", 1, 25, 3)
 stroke_color = st.sidebar.color_picker("Stroke color hex: ")
