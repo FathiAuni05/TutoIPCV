@@ -1,7 +1,6 @@
 numpy
-pillow
+Pillow
 streamlit
 streamlit_drawable_canvas
-opencv-contrib-python-headless
-matplotlib
-seaborn
+opencv-python-headless
+opencv-contrib-python
