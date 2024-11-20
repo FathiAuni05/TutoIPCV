@@ -1,3 +1,27 @@
+pip show opencv-python
+pip show opencv-python-headless
+pip install opencv-python
+pip install opencv-python-headless
+
+sudo apt-get install -y libgl1-mesa-glx
+sudo apt-get install -y libglib2.0-0 libsm6 libxrender1 libxext6
+
+python
+>>> import cv2
+>>> print(cv2.__version__)
+
+python3 -m venv new_env
+source new_env/bin/activate  # Activate on Linux/Mac
+new_env\Scripts\activate     # Activate on Windows
+pip install streamlit opencv-python
+
+streamlit run fourier_transform_GUI.py
+
+import sys
+print("Python executable:", sys.executable)
+print("Python version:", sys.version)
+print("Python path:", sys.path)
+
 from typing import final
 import streamlit as st
 import cv2
